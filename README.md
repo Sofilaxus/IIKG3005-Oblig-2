@@ -83,6 +83,7 @@ azure-terraform-project/
 ├── global/
 │   └── main.tf
 │
+├── locals.tf
 ├── variables.tf
 ├── outputs.tf
 └── README.md
