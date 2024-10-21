@@ -1,4 +1,5 @@
 # Main
+/*
 variable "az_credentials" {
   description = "Container for Azure-credentials"
   type = object({
@@ -8,6 +9,7 @@ variable "az_credentials" {
     subscription_id = string
   })
 }
+*/
 
 variable "rgname" {
   type = string
