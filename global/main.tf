@@ -22,4 +22,14 @@ resource "azurerm_resource_group" "rg" {
   location = local.location
 }
 
+module "network" {
+  source   = "./modules/networking"
+  rgname   = azurerm_resource_group.rg.name
+  location = azurerm_resource_group.rg.location
+  vnetname = var.vnetname
+  vnetas   = var.vnetas
+  subnetap = var.subnetap
+  nsgname  = var.nsgname
+}
+
 }
