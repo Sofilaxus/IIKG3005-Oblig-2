@@ -28,5 +28,5 @@ az_credentials = {
   subscription_id = ""
 }*/
 
-kvusername = "JingleJangle"
-kvpassword   = "Chr1stm4s!" 
+kvusername = "JingleJangle2"
+kvpassword   = "IL0v3Chr1stm4s!"

@@ -1,19 +1,19 @@
 variable "nsgname" {
   type        = string
   description = "The name of the network security group"
-  default     = "nsg-ssm-01"
+  default     = "nsg-ssm-02"
 }
 
 variable "vnetname" {
   type        = string
   description = "The name of the virtual network"
-  default     = "vnet-ssm-01"
+  default     = "vnet-ssm-02"
 }
 
 variable "rgname" {
   type        = string
   description = "The name of the resrouce group"
-  default     = "rg-ssm-01"
+  default     = "rg-ssm-02"
 }
 
 variable "location" {

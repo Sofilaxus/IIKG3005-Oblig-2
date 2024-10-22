@@ -21,7 +21,7 @@ variable "rgname" {
 variable "vnetname" {
   type        = string
   description = "The name of the virtual network"
-  default     = "vnet-ssm-01"
+  default     = "vnet-ssm-02"
 }
 
 variable "vnetas" {
@@ -39,5 +39,5 @@ variable "subnetap" {
 variable "nsgname" {
   type        = string
   description = "The name of the network security group"
-  default     = "nsg-ssm-01"
+  default     = "nsg-ssm-02"
 }
